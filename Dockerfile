@@ -1,5 +1,5 @@
 # Use imutable image tags rather than mutable tags (like ubuntu:18.04)
-FROM ubuntu:bionic-20200807
+FROM ubuntu:18.04
 
 RUN apt update -y \
     && apt install -y \
